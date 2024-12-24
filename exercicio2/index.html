@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo idade Js</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Verificador de Idade</h1>
+    <main>
+        <div>
+            <p>
+                <label for="ano">Ano de Nascimento:</label>
+                <input type="text" name="ano" id="ano">
+            </p>
+
+            <p>
+                <label for="sex">Selecione o género:</label>
+                <input type="radio" name="radsex" id="macho" checked>
+                <label for="macho" class="genero">Masculino</label>
+
+                <input type="radio" name="radsex" id="femea">
+                <label for="femea" class="genero">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" id="very" onclick="clicar()">
+            </p>
+        </div>
+
+        <div id="res">
+            preencha os dados acima para ver o resultado!
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy;DélfioAndré</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
