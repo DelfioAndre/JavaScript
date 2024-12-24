@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body {
+    font: normal 15pt Arial, Helvetica, sans-serif;
+    background-color: #9898d8;
+}
+header {
+    color: #fff;
+    text-align: center;
+
+}
+h1 {
+    text-align: center;
+    color: #fff;
+    
+}
+main {
+    background-color: #fff;
+    padding: 5px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.315);
+
+}
+main div {   
+    
+    
+}
+p label {
+    font-weight: normal;
+}
+p > label.genero {
+    font-weight: bold;
+    
+}
+input#ano {
+    background-color: #c7e2de;
+    border-radius: 6px;
+}
+input#very {
+    font-weight: bold;
+    background-color: #c7e2de;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+div#res {
+    color: #9898d8;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
+@media screen and (min-width: 600px) { /*OUtras midias*/
+    main {
+        width: 75%;
+        
+    }
+    
+}
+@media screen and (min-width: 800px) {
+    main {
+        width: 59%;
+        
+    }
+    
+}
+
+@media screen and (min-width: 9000px) {
+    main {
+
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+    main {
+        width: 45%;
+    }
+    
+}

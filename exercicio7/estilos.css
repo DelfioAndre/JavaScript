@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    font: normal 15pt Arial, Helvetica, sans-serif;
+    background-color: rgb(101, 101, 230);
+}
+header {
+    color: #fff;
+    text-align: center;
+
+}
+main {
+    background-color: #fff;
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.315);
+
+}
+main div {
+    
+    padding: 5px;
+    
+}
+main div#img {
+
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
+/*
+d3b97f manha
+f8a747 tarde
+732341 noite
+*/
